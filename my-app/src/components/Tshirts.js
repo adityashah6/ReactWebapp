@@ -4,7 +4,7 @@ import React from 'react'
 export const Tshirts = () => {
     return (
         <div className='Tshirts'>
-            <h1>Welcome to Tshirts</h1>
+            <h1>Welcome to Tshirts 👕</h1>
             
             <div class="card clothing-card">
                 <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSRAs5CFqkxXt2Grk6_uT9tMZ6JS5PK6UREDpXyVOhrAd4_bV2C3tUaDqzj46hgxRz5jwRXjspvlPDuK5XR1VbWygJthC4Mok1pHEUeTqK3NDIhsGK9XRUiNA" class="card-img-top" alt="..."/>

@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <a className="navbar-brand" href="#">SewItSeems</a>
+                <a className="navbar-brand" href="#">SewItSeems 🧵</a>
 
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -36,7 +36,10 @@ export const Navbar = () => {
                     </form>
                 </div>
             </nav>
-            <button type="button" className="btn btn-secondary btn-lg btn-block"><a href="/Checkout">CHECKOUT ITEM</a></button>
+            <div className="d-flex justify-content-center">
+                <a type="button" href="/Checkout" className="btn btn-success btn-lg checkout-btn">CHECKOUT ITEM</a>
+            </div>
+            
         </div>
         
     )

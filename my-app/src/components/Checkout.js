@@ -5,7 +5,7 @@ export const Checkout = () => {
 
     return (
         <div className='Checkout'>
-            <h1>Welcome to Checkout. Please checkout your items</h1>
+            <h1>Welcome to Checkout. Please checkout your items 💳</h1>
             
             <form className="row g-3">
                 <div className="col-md-6">

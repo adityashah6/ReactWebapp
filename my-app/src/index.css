@@ -1,7 +1,15 @@
+h1 {
+    text-align: center;
+}
+
 .clothing-card {
     width: 18rem;
 }
 
 .add-cart-btn {
     background-color: orange;
+}
+
+.checkout-btn {
+    margin: 20px;
 }
