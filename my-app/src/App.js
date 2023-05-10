@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
 import { Tshirts } from './components/Tshirts';
@@ -5,8 +7,8 @@ import { Pants } from './components/Pants';
 import { Shorts } from './components/Shorts';
 import { Shoes } from './components/Shoes';
 import { Checkout } from './components/Checkout';
-
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Login } from './components/Login';
+import { Signup } from './components/Signup';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <Route exact path="/Shorts" element={<Shorts/>}></Route>
             <Route exact path="/Shoes" element={<Shoes/>}></Route>
             <Route exact path="/Checkout" element={<Checkout/>}></Route>
+            <Route exact path="/Login" element={<Login/>}></Route>
+            <Route exact path="/Signup" element={<Signup/>}></Route>
           </Routes>
         </div>
       </div>

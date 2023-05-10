@@ -31,8 +31,8 @@ export const Navbar = () => {
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button type="button" className="btn btn-outline-light me-2">Login</button>
-                    <button type="button" className="btn btn-outline-light me-2">Sign Up</button>
+                    <a type="button" className="btn btn-outline-light me-2" href="/Login">Login</a>
+                    <a type="button" className="btn btn-outline-light me-2" href="/Signup">Sign Up</a>
                     </form>
                 </div>
             </nav>
