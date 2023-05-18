@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import React from 'react'
 
-import { onSnapshot, collection, setDoc, doc } from "@firebase/firestore";
+import { onSnapshot, collection, setDoc, doc, deleteDoc, getDocs, writeBatch } from "@firebase/firestore";
 import db from "../firebase";
 
 
@@ -20,6 +20,7 @@ export const ProductCollection = ({entry, condition}) => {
             setCart(snapshot.docs.map((doc) => doc.data()))
         ),[]
     );
+    
 
     const addToCart = async (e) => {        
         let res;
