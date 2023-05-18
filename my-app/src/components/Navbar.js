@@ -36,7 +36,8 @@ export const Navbar = () => {
                 </div>
             </nav>
             <div className="d-flex justify-content-center">
-                <a type="button" href="/Checkout" className="btn btn-success btn-lg checkout-btn">CHECKOUT ITEM</a>
+                {/* <a type="button" href="/Checkout" className="btn btn-success btn-lg checkout-btn">CHECKOUT ITEM</a> */}
+                <a type="button" href="/Cart" className="btn btn-success btn-lg checkout-btn">MY CART</a>
             </div>
             
         </div>

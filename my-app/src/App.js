@@ -9,6 +9,7 @@ import { Shoes } from './components/Shoes';
 import { Checkout } from './components/Checkout';
 import { Login } from './components/Login';
 import { Signup } from './components/Signup';
+import { Cart } from './components/Cart';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
             <Route exact path="/Pants" element={<Pants/>}></Route>
             <Route exact path="/Shorts" element={<Shorts/>}></Route>
             <Route exact path="/Shoes" element={<Shoes/>}></Route>
-            <Route exact path="/Checkout" element={<Checkout/>}></Route>
+            <Route exact path="/Cart" element={<Cart/>}></Route>
+            <Route exact path="/Cart/Checkout" element={<Checkout/>}></Route>
             <Route exact path="/Login" element={<Login/>}></Route>
             <Route exact path="/Signup" element={<Signup/>}></Route>
           </Routes>
