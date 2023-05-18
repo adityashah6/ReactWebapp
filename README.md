@@ -17,6 +17,11 @@ The microservice this project uses primarily is the Client-Server model.
 
 We also wanted a site that had loose coupling, modularity, and separation of concerns. This meant that we also added some features of the Layered Model to achieve these requirements.
 
+The microservices used in this app include:
+ - Inventory microservice: Using Firestore as a backend database to store all items in stock (T-Shirts, Pants, Shorts, Shoes). And read each item onto the webpage to sell to users
+ - Cart microservice: For every item added to cart by the user, it gets stored into their cart, and calculates the total price (US Dollars) they must pay before checking out
+ - Checkout microservice: Confirms users' purchase from items in their Cart.
+
 ## Integration of Microservice
 
 The use of the Client-Server model can be seen whenever a user clicks on any tab.
