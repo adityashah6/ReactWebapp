@@ -8,8 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```
 cd my-app
-run npm install
-run npm run start
+npm install
+npm run start
 ```
 
 ## Implementation
