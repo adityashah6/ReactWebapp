@@ -21,3 +21,9 @@ h1 {
     display: inline-block;
     margin: 10px;
 }
+
+.thank-you-note {
+    color: rgb(0, 255, 110);
+    text-align: center;
+    font-size: 70px;   
+}
