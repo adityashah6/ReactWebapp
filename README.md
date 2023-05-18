@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to run this application 
 
 ```
+cd my-app
 run npm install
 run npm run start
 ```
