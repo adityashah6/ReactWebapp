@@ -4,14 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-### How to run this application 
+## How to run this application 
+
 ```
 run npm install
 run npm run start
 ```
 
-### Implementation
+## Implementation
 
-### Integration
+## Integration
 
-### Deployment of Web Application
+## Deployment of Web Application
