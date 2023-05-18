@@ -17,7 +17,7 @@ run npm run start
 
 ## Deployment of Web Application
 
-![image](https://github.com/adityashah6/ReactWebapp/assets/60235219/726b8099-b9e5-4abf-9a58-5f9cd8de587b)
+![image](https://github.com/adityashah6/ReactWebapp/assets/60235219/83a34adf-90e7-4175-b114-574db0d4587b)
 
 ![image](https://github.com/adityashah6/ReactWebapp/assets/60235219/61cf034b-40ac-4494-869f-e2db1bb38360)
 
