@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
+SewItSeams is an e-commerce site dedicated to making the process of buying clothes a lot simpler.
 
 ## How to run this application 
 
