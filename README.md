@@ -7,7 +7,6 @@ SewItSeams is an e-commerce site dedicated to making the process of buying cloth
 ## How to run this application 
 
 ```
-cd my-app
 npm install
 npm run start
 ```
