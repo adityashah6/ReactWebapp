@@ -30,7 +30,6 @@ export const Navbar = () => {
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
                     <a type="button" className="btn btn-outline-light me-2" href="/Login">Login</a>
                     <a type="button" className="btn btn-outline-light me-2" href="/Signup">Sign Up</a>
                     </form>
