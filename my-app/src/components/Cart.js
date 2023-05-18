@@ -11,7 +11,14 @@ export const Cart = () => {
             setCart(snapshot.docs.map((doc) => doc.data()))
         ),[]
     );
+    
+    let total_cost = 0;
 
+    cart.map((item) => {
+      console.log(`${item.cost} = ${item.name}`);
+      total_cost += Number(item.cost);
+    });
+    console.log(total_cost);
 
     return (
         <div className="container mt-4">
@@ -32,7 +39,7 @@ export const Cart = () => {
             </ul>
             
             <div className="mt-4">
-              <h5>Total Price: $100.00</h5>
+              <h5>Total Price: ${Number(total_cost).toFixed(2)}</h5>
               <a type="button" href="/Cart/Checkout" className="btn btn-primary">Checkout</a>
             </div>
           </div>

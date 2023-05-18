@@ -25,7 +25,7 @@ export const ProductCollection = ({entry, condition}) => {
         let res;
         for (const item of clothes) {
             if (item.id === e.target.id) {
-                res = item
+                res = item;
             }
         }
 
@@ -40,6 +40,7 @@ export const ProductCollection = ({entry, condition}) => {
         };
 
         await setDoc(docRef, payload);
+        alert("Successfully Added to Cart!");
     }
 
     return (
