@@ -14,7 +14,17 @@ npm run start
 
 ## Implementation of Microservices
 
+The microservice this project uses primarily is the Client-Server model.
+
+We also wanted a site that had loose coupling, modularity, and separation of concerns. This meant that we also added some features of the Layered Model to achieve these requirements.
+
 ## Integration of Microservice
+
+The use of the Client-Server model can be seen whenever a user clicks on any tab.
+Any user is the client side and it makes requests of the server for any information, from searching available inventory to checking out.
+
+The loose coupling, modularity, and separation of concerns were apparent in the creation of the different types of clothing tabs.
+For future interations of this website, more sub-categories of clothing can be added without influencing the current structure. Or if this site no longer supports to the selling of a category of clothes, its removal will not affect the site.
 
 ## Deployment of Web Application
 
